@@ -1,5 +1,4 @@
 import XCTest
-import QYNovelModule
 
 class Tests: XCTestCase {
     

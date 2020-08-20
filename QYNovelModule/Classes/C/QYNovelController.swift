@@ -8,7 +8,7 @@
 import UIKit
 import QYUtilCore
 
-open class QYViewController: QYViewController {
+open class QYNovelController: QYViewController {
 
     open override func viewDidLoad() {
         super.viewDidLoad()
