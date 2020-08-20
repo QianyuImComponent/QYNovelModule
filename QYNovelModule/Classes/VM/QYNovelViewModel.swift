@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import QYUtilCore
 
-open class QYNovelViewModel: NSObject {
+open class QYNovelViewModel: QYViewModel {
 
 }
 
