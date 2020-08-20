@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QYNovelModule_Example' do
+  pod 'QYNovelModule', :path => '../'
+
+  target 'QYNovelModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
