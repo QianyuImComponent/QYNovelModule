@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = '项目小说模块'
 
-
   s.description      = <<-DESC
 TODO: 项目小说，单独模块.
                        DESC

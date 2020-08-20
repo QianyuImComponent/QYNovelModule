@@ -14,6 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		EF445A7A24EE298E005E46F0 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = EF445A7524EE298E005E46F0 /* Fastfile */; };
+		EF445A7B24EE298E005E46F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF445A7624EE298E005E46F0 /* README.md */; };
+		EF445A7C24EE298E005E46F0 /* remove_git_tag.rb in Resources */ = {isa = PBXBuildFile; fileRef = EF445A7824EE298E005E46F0 /* remove_git_tag.rb */; };
+		EF445A7D24EE298E005E46F0 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = EF445A7924EE298E005E46F0 /* report.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		A52666E62DBD3860D7812020 /* Pods-QYNovelModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYNovelModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-QYNovelModule_Example/Pods-QYNovelModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD43C54F013F7AD5311D95DF /* QYNovelModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYNovelModule.podspec; path = ../QYNovelModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D2C94F48DD175F827B4E00C1 /* Pods_QYNovelModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYNovelModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF445A7524EE298E005E46F0 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		EF445A7624EE298E005E46F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF445A7824EE298E005E46F0 /* remove_git_tag.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = remove_git_tag.rb; sourceTree = "<group>"; };
+		EF445A7924EE298E005E46F0 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		FD6643ECF4FBF924D5469790 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +138,7 @@
 				BD43C54F013F7AD5311D95DF /* QYNovelModule.podspec */,
 				FD6643ECF4FBF924D5469790 /* README.md */,
 				925B7CA0B7CE036DC663AC05 /* LICENSE */,
+				EF445A7424EE298E005E46F0 /* fastlane */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -149,6 +158,26 @@
 				79BF5AE0D2E7E4B7AD837FF6 /* Pods-QYNovelModule_Example.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF445A7424EE298E005E46F0 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				EF445A7524EE298E005E46F0 /* Fastfile */,
+				EF445A7624EE298E005E46F0 /* README.md */,
+				EF445A7724EE298E005E46F0 /* actions */,
+				EF445A7924EE298E005E46F0 /* report.xml */,
+			);
+			name = fastlane;
+			path = ../fastlane;
+			sourceTree = "<group>";
+		};
+		EF445A7724EE298E005E46F0 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				EF445A7824EE298E005E46F0 /* remove_git_tag.rb */,
+			);
+			path = actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +268,10 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				EF445A7B24EE298E005E46F0 /* README.md in Resources */,
+				EF445A7C24EE298E005E46F0 /* remove_git_tag.rb in Resources */,
+				EF445A7D24EE298E005E46F0 /* report.xml in Resources */,
+				EF445A7A24EE298E005E46F0 /* Fastfile in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

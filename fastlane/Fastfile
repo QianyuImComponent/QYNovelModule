@@ -4,7 +4,7 @@ lane :PodTool do |options|
 tagNum = options[:tag]
 UI.message("本来specName应该外界传入的 但是这里就先写死吧")
 # podspecName = options[:specName]
-podspecName = "QYHomeModule"
+podspecName = "QYNovelModule"
 # 航道上需要执行的操作
 # 具体action到 https://docs.fastlane.tools/actions 上面查找
 # 这里的路径以仓库根目录为准
